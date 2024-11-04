@@ -5,7 +5,7 @@ from datetime import datetime
 
 SERIAL_PORT = 'COM19' 
 BAUD_RATE = 9600
-DURATION = 1 * 60  # Run for one hour (60 minutes * 60 seconds)
+DURATION = 60 * 60  # Run for one hour (60 minutes * 60 seconds)
 
 # Open serial port
 ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
